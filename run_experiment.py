@@ -15,8 +15,8 @@ import random
 
 from brand import MARCHIO, AUTORE, COPYRIGHT
 from config import RANDOM_SEED, FPS
-from ambiente import Ambiente, GestoreFarmaci
-from entita_base import GlobuloRosso, Neutrofilo, Batterio, Macrofago, LinfocitaT, LinfocitaB
+from environment import Ambiente, GestoreFarmaci
+from entities import GlobuloRosso, Neutrofilo, Batterio, Macrofago, LinfocitaT, LinfocitaB
 from analytics import SimulationLogger
 
 

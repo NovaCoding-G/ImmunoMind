@@ -71,8 +71,12 @@ ImmunoMind simula dinamiche fondamentali dell'immunità innata e adattativa in u
 
 ### Esportazione dati
 
-- **Interattivo:** premere `E` durante la simulazione → CSV in `dati_esportati/`
+- **Interattivo:** premere `E` durante la simulazione → CSV in `exported_data/`
 - **Batch:** `python run_experiment.py --durata 7200 --repliche 10 --seed-base 100`
+
+### Esperimenti guidati
+
+Tutorial passo-passo (italiano + inglese): [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md)
 
 ### Struttura progetto
 
@@ -80,17 +84,17 @@ ImmunoMind simula dinamiche fondamentali dell'immunità innata e adattativa in u
 ImmunoMind/
 ├── main.py              # Loop principale e UI
 ├── config.py            # Parametri e costanti
-├── entita_base.py       # Cellule e patogeni
-├── ambiente.py          # Ambiente e farmaci
+├── entities.py          # Cellule e patogeni
+├── environment.py       # Ambiente e farmaci
 ├── hud.py               # Pannello informativo
 ├── analytics.py         # Logger CSV
 ├── run_experiment.py    # Simulazioni batch
 ├── WIKI.py              # Contenuti Wiki
 ├── fonts.py             # Tipografia UI
-├── test_sistema.py      # Verifica installazione
-├── docs/screenshots/    # Screenshot e log visivo
-├── GUIDA_PRINCIPIANTI.md
-├── SCENARI.md
+├── test_system.py       # Verifica installazione
+├── docs/
+│   ├── EXPERIMENTS.md   # Esperimenti guidati (IT + EN)
+│   └── screenshots/
 └── requirements.txt
 ```
 
@@ -165,8 +169,12 @@ ImmunoMind is an educational Python application that visualizes, in real time, t
 
 ### Data export
 
-- **Interactive:** press `E` during simulation → CSV in `dati_esportati/`
+- **Interactive:** press `E` during simulation → CSV in `exported_data/`
 - **Batch:** `python run_experiment.py --durata 7200 --repliche 10 --seed-base 100`
+
+### Guided experiments
+
+Step-by-step labs (Italian + English): [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md)
 
 ### Project structure
 
@@ -174,17 +182,17 @@ ImmunoMind is an educational Python application that visualizes, in real time, t
 ImmunoMind/
 ├── main.py              # Main loop and UI
 ├── config.py            # Parameters and constants
-├── entita_base.py       # Cells and pathogens
-├── ambiente.py          # Environment and drugs
+├── entities.py          # Cells and pathogens
+├── environment.py       # Environment and drugs
 ├── hud.py               # Information panel
 ├── analytics.py         # CSV logger
 ├── run_experiment.py    # Batch simulations
 ├── WIKI.py              # Wiki content
 ├── fonts.py             # UI typography
-├── test_sistema.py      # Installation check
-├── docs/screenshots/    # Screenshots and visual log
-├── GUIDA_PRINCIPIANTI.md
-├── SCENARI.md
+├── test_system.py       # Installation check
+├── docs/
+│   ├── EXPERIMENTS.md   # Guided labs (IT + EN)
+│   └── screenshots/
 └── requirements.txt
 ```
 
@@ -208,4 +216,4 @@ ImmunoMind/
 - [*E. coli* — Wikipedia](https://en.wikipedia.org/wiki/Escherichia_coli)
 - [Penicillin — Wikipedia](https://en.wikipedia.org/wiki/Penicillin)
 
--NovaCoding (G.Roscino) — [Repository GitHub](https://github.com/NovaCoding-G/ImmunoMind)
+NovaCoding (G.Roscino) — [Repository GitHub](https://github.com/NovaCoding-G/ImmunoMind)

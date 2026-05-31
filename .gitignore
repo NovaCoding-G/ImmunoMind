@@ -55,6 +55,6 @@ htmlcov/
 
 # ImmunoMind specifici
 *.log
-dati_esportati/*
-!dati_esportati/.gitkeep
+exported_data/*
+!exported_data/.gitkeep
 

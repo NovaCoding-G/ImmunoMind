@@ -200,4 +200,4 @@ UI_SOTTOTITOLO_OMBRA_ALPHA = 82
 
 RANDOM_SEED = None
 LOG_INTERVAL = 30.0
-EXPORT_DIR = "dati_esportati"
+EXPORT_DIR = "exported_data"

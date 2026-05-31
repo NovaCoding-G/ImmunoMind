@@ -64,21 +64,21 @@ def test_moduli_progetto():
         errori.append("config.py")
     
     try:
-        from entita_base import GlobuloRosso, Neutrofilo, Batterio
-        print(f"  ✅ entita_base.py caricato")
+        from entities import GlobuloRosso, Neutrofilo, Batterio
+        print(f"  ✅ entities.py caricato")
         print(f"     - GlobuloRosso: OK")
         print(f"     - Neutrofilo: OK")
         print(f"     - Batterio: OK")
     except ImportError as e:
-        print(f"  ❌ entita_base.py: {e}")
-        errori.append("entita_base.py")
+        print(f"  ❌ entities.py: {e}")
+        errori.append("entities.py")
     
     try:
-        from ambiente import Ambiente, GestoreFarmaci
-        print(f"  ✅ ambiente.py caricato")
+        from environment import Ambiente, GestoreFarmaci
+        print(f"  ✅ environment.py caricato")
     except ImportError as e:
-        print(f"  ❌ ambiente.py: {e}")
-        errori.append("ambiente.py")
+        print(f"  ❌ environment.py: {e}")
+        errori.append("environment.py")
     
     try:
         from hud import HUD
@@ -95,8 +95,8 @@ def test_creazione_entita():
     print("\n🔍 Test 3: Creazione entità...")
     
     try:
-        from entita_base import GlobuloRosso, Neutrofilo, Batterio
-        from ambiente import Ambiente
+        from entities import GlobuloRosso, Neutrofilo, Batterio
+        from environment import Ambiente
         
         globulo = GlobuloRosso(100, 100)
         neutrofilo = Neutrofilo(200, 200)
@@ -119,8 +119,8 @@ def test_simulazione_base():
     print("\n🔍 Test 4: Simulazione base...")
     
     try:
-        from entita_base import Neutrofilo, Batterio
-        from ambiente import Ambiente
+        from entities import Neutrofilo, Batterio
+        from environment import Ambiente
         
         ambiente = Ambiente()
         neutrofilo = Neutrofilo(100, 100)
@@ -181,8 +181,7 @@ def stampa_riepilogo(tutti_errori):
         print("\n📝 Per avviare il simulatore:")
         print("   python main.py")
         print("\n📚 Leggi README.md per istruzioni complete")
-        print("🎓 Leggi GUIDA_PRINCIPIANTI.md se è la prima volta")
-        print("🧪 Leggi SCENARI.md per esperimenti guidati")
+        print("🧪 Esperimenti guidati: docs/EXPERIMENTS.md (IT + EN)")
     else:
         print("❌ ALCUNI TEST HANNO FALLITO")
         print(f"\n⚠️  Problemi rilevati: {', '.join(set(tutti_errori))}")

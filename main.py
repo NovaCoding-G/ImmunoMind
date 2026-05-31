@@ -15,7 +15,7 @@ from brand import (
 )
 from config import *
 from fonts import ui_font, brand_title_font, subtitle_font, section_font, label_font, body_font, caption_font
-from entita_base import (
+from entities import (
     GlobuloRosso,
     Neutrofilo,
     Batterio,
@@ -24,7 +24,7 @@ from entita_base import (
     LinfocitaT,
     LinfocitaB,
 )
-from ambiente import Ambiente, GestoreFarmaci
+from environment import Ambiente, GestoreFarmaci
 from hud import HUD
 from analytics import SimulationLogger
 from WIKI import WIKI_SECTIONS

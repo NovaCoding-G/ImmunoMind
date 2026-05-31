@@ -35,6 +35,23 @@ wheels/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Test / lint / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambiente locale (segreti, path personali)
+.env
+.env.*
+
+# Backup temporanei
+*.bak
+*~
 
 # ImmunoMind specifici
 *.log

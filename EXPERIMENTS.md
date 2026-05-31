@@ -12,7 +12,7 @@ Hands-on labs to explore innate immunity, antibiotics, fever, and system limits.
 
 1. Avvia con `python main.py`
 2. Scegli scenario e gravità dal menu, poi **Start**
-3. Usa i controlli descritti nel [README](../README.md)
+3. Usa i controlli descritti nel [README](README.md)
 
 > **Nota:** modello didattico semplificato, non software medico.
 
@@ -132,7 +132,7 @@ Hands-on labs to explore innate immunity, antibiotics, fever, and system limits.
 
 1. Launch with `python main.py`
 2. Pick scenario and severity from the menu, then **Start**
-3. See controls in the [README](../README.md)
+3. See controls in the [README](README.md)
 
 > **Note:** simplified teaching model, not medical software.
 

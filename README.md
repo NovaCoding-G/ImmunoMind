@@ -76,7 +76,7 @@ ImmunoMind simula dinamiche fondamentali dell'immunità innata e adattativa in u
 
 ### Esperimenti guidati
 
-Tutorial passo-passo (italiano + inglese): [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md)
+Tutorial passo-passo (italiano + inglese): [`EXPERIMENTS.md`](EXPERIMENTS.md)
 
 ### Struttura progetto
 
@@ -92,9 +92,8 @@ ImmunoMind/
 ├── WIKI.py              # Contenuti Wiki
 ├── fonts.py             # Tipografia UI
 ├── test_system.py       # Verifica installazione
-├── docs/
-│   ├── EXPERIMENTS.md   # Esperimenti guidati (IT + EN)
-│   └── screenshots/
+├── EXPERIMENTS.md       # Esperimenti guidati (IT + EN)
+├── docs/screenshots/
 └── requirements.txt
 ```
 
@@ -174,7 +173,7 @@ ImmunoMind is an educational Python application that visualizes, in real time, t
 
 ### Guided experiments
 
-Step-by-step labs (Italian + English): [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md)
+Step-by-step labs (Italian + English): [`EXPERIMENTS.md`](EXPERIMENTS.md)
 
 ### Project structure
 
@@ -190,9 +189,8 @@ ImmunoMind/
 ├── WIKI.py              # Wiki content
 ├── fonts.py             # UI typography
 ├── test_system.py       # Installation check
-├── docs/
-│   ├── EXPERIMENTS.md   # Guided labs (IT + EN)
-│   └── screenshots/
+├── EXPERIMENTS.md       # Guided labs (IT + EN)
+├── docs/screenshots/
 └── requirements.txt
 ```
 

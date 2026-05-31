@@ -181,7 +181,7 @@ def stampa_riepilogo(tutti_errori):
         print("\n📝 Per avviare il simulatore:")
         print("   python main.py")
         print("\n📚 Leggi README.md per istruzioni complete")
-        print("🧪 Esperimenti guidati: docs/EXPERIMENTS.md (IT + EN)")
+        print("🧪 Esperimenti guidati: EXPERIMENTS.md (IT + EN)")
     else:
         print("❌ ALCUNI TEST HANNO FALLITO")
         print(f"\n⚠️  Problemi rilevati: {', '.join(set(tutti_errori))}")

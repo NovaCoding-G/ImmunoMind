@@ -1,21 +1,23 @@
-MIT License
+Copyright (c) 2026 G.Roscino / NovaCoding. Tutti i diritti riservati.
 
-Copyright (c) 2026 G.Roscino / NovaCoding
+PROPRIETARY LICENSE — ImmunoMind
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Il codice sorgente, la documentazione e gli asset di questo repository sono
+di proprietà esclusiva di G.Roscino e NovaCoding.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+CONSENTITO (solo a scopo informativo / portfolio):
+  • Consultare il codice su GitHub
+  • Clonare il repository per uso personale e studio
+  • Eseguire il software localmente
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+NON CONSENTITO senza autorizzazione scritta di G.Roscino / NovaCoding:
+  • Modificare il codice o creare opere derivate
+  • Ridistribuire, pubblicare o vendere copie (totali o parziali)
+  • Usare il progetto in prodotti commerciali o corsi a pagamento
+  • Rimuovere o alterare avvisi di copyright e marchio
+
+Per richieste di licenza, collaborazione o uso didattico esteso:
+  contattare NovaCoding (G.Roscino).
+
+Il software è fornito "così com'è", senza garanzie di alcun tipo.
+Non è un software medico né un dispositivo diagnostico.

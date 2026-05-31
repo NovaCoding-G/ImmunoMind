@@ -11,7 +11,7 @@ ImmunoMind è un'applicazione educativa in Python che visualizza, in tempo reale
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.8%2B-green)
 ![Pygame](https://img.shields.io/badge/pygame-2.5.2-informational)
-![License](https://img.shields.io/badge/license-MIT-orange)
+![License](https://img.shields.io/badge/license-Proprietary-red)
 
 ---
 
@@ -94,7 +94,13 @@ ImmunoMind/
 └── requirements.txt
 ```
 
-NovaCoding(G.Roscino)
+### Licenza
+
+**Tutti i diritti riservati** — G.Roscino / NovaCoding.
+
+Puoi consultare il codice, clonarlo per uso personale e studiarlo. **Non è consentito** modificarlo, crearne versioni derivate, ridistribuirlo o usarlo commercialmente senza autorizzazione scritta. Dettagli in [`LICENSE`](LICENSE).
+
+NovaCoding (G.Roscino)
 
 ## English 
 
@@ -186,6 +192,11 @@ ImmunoMind/
 └── requirements.txt
 ```
 
+### License
+
+**All rights reserved** — G.Roscino / NovaCoding.
+
+You may view the code, clone it for personal use, and run it locally. **You may not** modify it, create derivative works, redistribute it, or use it commercially without written permission. See [`LICENSE`](LICENSE) for details.
 
 ### Troubleshooting
 

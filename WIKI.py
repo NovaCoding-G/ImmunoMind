@@ -113,7 +113,7 @@ WIKI_SECTIONS = [
         "title": "Crediti",
         "paragraphs": [
             "ImmunoMind è un progetto educativo sviluppato da G.Roscino per NovaCoding.",
-            "Il software è distribuito a scopo didattico. Codice e contenuti sono di proprietà di G.Roscino / NovaCoding.",
+            "Il software è distribuito a scopo didattico. Codice e contenuti sono di proprietà di G.Roscino / NovaCoding (tutti i diritti riservati). È consentito consultarlo ed eseguirlo; modifiche, opere derivate e ridistribuzione richiedono autorizzazione scritta.",
         ],
     },
 ]
